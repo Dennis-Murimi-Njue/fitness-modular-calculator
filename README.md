@@ -1,14 +1,10 @@
-# 🏃 Fitness & Modular Calculator
+# Fitness & Discipline Modular Calculator
 
 A lightweight, modular Python toolkit for tracking a client's weekly fitness. Each calculator is a small, self-contained function, and the final script combines them all into one printed weekly report. It uses the Python standard library only, so there is nothing to install.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
-
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Features](#-features)
 - [Getting Started](#-getting-started)
@@ -23,7 +19,7 @@ A lightweight, modular Python toolkit for tracking a client's weekly fitness. Ea
 
 ---
 
-## ✨ Features
+##  Features
 
 | # | Calculator | Functions | Python concept |
 |---|------------|-----------|----------------|
@@ -35,7 +31,7 @@ A lightweight, modular Python toolkit for tracking a client's weekly fitness. Ea
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -44,8 +40,8 @@ A lightweight, modular Python toolkit for tracking a client's weekly fitness. Ea
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/fitness-calculator.git
-cd fitness-calculator
+git clone https://github.com/<your-username>/fitness-modular-calculator.git
+cd fitness-modular-calculator
 ```
 
 No `pip install` is needed, since only the built-in `math` and `datetime` modules are used.
@@ -53,14 +49,12 @@ No `pip install` is needed, since only the built-in `math` and `datetime` module
 ### Run
 
 ```bash
-python fitness_calculator.py
+python fitness_modular_calculator.py
 ```
-
-Replace `fitness_calculator.py` with whatever you named your script. Running it prints each calculator's test output, followed by the full weekly report.
 
 ---
 
-## 📖 Calculator Reference
+##  Calculator Reference
 
 ### 1. BMI Calculator
 
@@ -166,7 +160,7 @@ protocol_summary(protocols)
 
 ---
 
-## 📋 Full Weekly Report
+## Full Weekly Report
 
 The final script combines all four calculators into one report for a client. The report date is generated automatically with `datetime.date.today()` and formatted as `DD Month YYYY`.
 
@@ -185,7 +179,7 @@ The report then prints four sections: **Body** (weight and BMI), **Steps** (goal
 
 ---
 
-## 🖨 Sample Output
+## Sample Output
 
 ```
 ==========================================
@@ -216,7 +210,7 @@ The date reflects the day you run the script, and the order of the protocol line
 
 ---
 
-## ✏️ Customising the Data
+##  Customising the Data
 
 - **Different client:** change `client_name`, `weight_kg` and `height_m`.
 - **Different week:** replace the `weekly_steps` and `protocols` lists. Keep both at 7 entries so the report's "x/7" label stays correct.
@@ -225,7 +219,7 @@ The date reflects the day you run the script, and the order of the protocol line
 
 ---
 
-## 🧠 Concepts Demonstrated
+##  Concepts Demonstrated
 
 - Writing small, reusable, single-purpose functions
 - Default parameters (`goal=8000`, `calories_per_step=0.04`)
@@ -237,7 +231,7 @@ The date reflects the day you run the script, and the order of the protocol line
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 - [ ] Input validation (e.g. zero or negative height, empty step lists)
 - [ ] Unit tests with `unittest` or `pytest`
@@ -247,7 +241,7 @@ The date reflects the day you run the script, and the order of the protocol line
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -259,13 +253,3 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 👤 Author
-
-**Denno**
-Built with Python 🐍 and a love for fitness.
